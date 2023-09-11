@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Loki</title>
+</head>
+<body class="w-screen h-screen bg-black md:flex items-center justify-center md:[background-image:url('./images/movieBG.png')] bg-no-repeat bg-cover">
+<div class=" bg-black md:bg-transparent h-max  pb-4">
+    <div class="text-white flex items-center pt-4 ml-8 cursor-pointer">
+        <button
+            class="w-[3.1rem] h-[3.1rem] shrink-0 bg-slate-400 text-white flex items-center justify-center rounded-[1rem]">
+            <img src="./images/prev.svg" alt="previous">
+        </button>
+        <span class="text-white font-[700] leading-[1.75rem] text-[1.2rem] md:text-[1.75rem] ml-4">Back to Home</span>
+    </div>
+
+
+   <div class="md:flex items-center">
+    <div>
+        <h1 class="text-white ml-8 mt-8 text-[3rem] font-[700] leading-[3rem]">Loki</h1>
+        <!-- !Rating -->
+        <div class="flex justify-between w-4/12 md:w-3/12 ml-8 mt-4">
+            <img src="./images/Star.svg" alt="star">
+            <img src="./images/Star.svg" alt="star">
+            <img src="./images/Star.svg" alt="star">
+            <img src="./images/Star.svg" alt="star">
+            <img src="./images/halfStar.svg" alt="star">
+        </div>
+        <!-- !End of rating -->
+
+        <span class="text-white text-[1.5rem] font-[500] mt-2 ml-8 block">10M+ views</span>
+        <div class="ml-8 mt-2">
+            <img src="./images/imdb.png" alt="">
+        </div>
+        <!-- !Description -->
+        <div class=" text-white mt-2 ml-8 md:w-[40rem] md:h-[12rem]  ">
+            <p class="md:text-[1.8rem]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.</p>
+            <div class="flex items-center mx-auto mt-4 gap-[1rem]">
+                <button
+                    class="h-[3.5rem] flex gap-[.6rem] rounded-[1rem] bg-[rgba(91,60,60,0.2)] backdrop-blur-[5px] items-center justify-center p-4">
+                    <img src="./images/watchlist.svg" alt="watchlist">
+                    Watchlist
+                </button>
+                <button
+                    class="w-[15rem] h-[3.5rem] flex gap-[.6rem] rounded-[1rem] bg-[#F8B319] text-black items-center justify-center p-4 font-[700]">
+                    Watch Now
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- !Cover -->
+    <div>
+        <div class="w-10/12 mx-auto rounded-[1.25rem] mt-2">
+            <img src="./images/lokiprev.png" alt="top-rated">
+        </div>
+    </div>
+   </div>
+</div>
+</body>
+</html>
